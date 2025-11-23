@@ -1,0 +1,59 @@
+general.import = [
+  "~/.config/alacritty/themes/themes/dracula.toml"
+]
+
+general.live_config_reload = true
+
+[terminal.shell]
+program = "/bin/zsh"
+args = ["-l"]
+
+[window]
+padding.x = 7
+padding.y = 7
+startup_mode = "Maximized"
+decorations = "Buttonless"
+opacity = 0.5
+blur = true
+
+[font]
+size = 13
+
+[font.normal]
+family = "Hack Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "Hack Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "Hack Nerd Font"
+style = "Italic"
+
+[font.bold_italic]
+family = "Hack Nerd Font"
+style = "Bold Italic"
+
+[scrolling]
+history = 50000
+multiplier = 3
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+style.shape = "Beam"
+style.blinking = "Off"
+
+[mouse]
+hide_when_typing = false
+
+[keyboard]
+bindings = [
+  { key = "B", mods = "Alt", chars = "\u001BB" },  # Alt + B (Move backward one word)
+  { key = "F", mods = "Alt", chars = "\u001BF" }  # Alt + F (Move forward one word)
+]
