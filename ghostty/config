@@ -1,0 +1,14 @@
+theme = tokyonight
+background-opacity = 0.93
+shell-integration = zsh
+cursor-style = block
+cursor-style-blink = false
+background-blur-radius = 20
+window-save-state = always
+auto-update = check
+
+keybind = command+shift+r=reload_config
+keybind = command+shift+h=new_split:left
+keybind = command+shift+k=new_split:up
+keybind = command+shift+l=new_split:right
+keybind = command+shift+space=toggle_quick_terminal
