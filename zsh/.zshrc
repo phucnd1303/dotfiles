@@ -29,13 +29,13 @@ ZSH_THEME="robbyrussell"
 # Which plugins would you like to load?
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 plugins=(
- git
- docker
- golang
- fzf-tab
- zsh-autosuggestions
- zsh-completions
- zsh-syntax-highlighting
+	git
+	docker
+	golang
+	fzf-tab
+	zsh-autosuggestions
+	zsh-completions
+	zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
